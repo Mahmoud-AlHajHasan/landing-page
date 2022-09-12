@@ -49,15 +49,6 @@ button {
   color: #1f2937;
 }
 
-.quote-area {
-  background-color: #e5e7eb;
-}
-
-.quote {
-  font-size: 36px;
-  font-style:italic;
-  color: #1f2937;
-}
 
 
 .content img {
@@ -136,7 +127,7 @@ button {
   gap: 20px;
   justify-content: center;
   align-items: center;
-  padding-bottom: 75px;
+  padding: 0 75px 75px 75px;
 }
 
 .item{
@@ -163,3 +154,26 @@ button {
   font-size:16px ;
   text-align: center;
 }
+
+
+.quote-area {
+  background-color: #e5e7eb;
+  padding: 75px 125px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.quote {
+  font-size: 24px;
+  font-style:italic;
+  color: #1f2937e3;
+  font-weight: lighter;
+  align-self: flex-start;
+}
+.author {
+  align-self: flex-end;
+  color: #1f2937;
+  font-size: 16px;
+  font-weight: 500;
+ }
